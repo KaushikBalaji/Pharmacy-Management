@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PharmacyProject.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <head runat="server">
+        <link rel="stylesheet" href="bootstrap/css1/bootstrap.min.css">
+  <script src="bootstrap/css1/jquery.min.js"></script>
+  <script src="bootstrap/css1/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+            <div>
+       <form id="form2" runat="server" draggable="auto">
+                       <div>
+                <nav class="navbar navbar-default">
+                    <div class="auto-style7">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="HomePage.aspx">Heal & Deal</a>
+                        </div>
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="HomePage.aspx">Home</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="RegisterUser.aspx">Register</a></li>
+                      <li class="headlist"><a href="LoginPage.aspx">Login</a></li>
+                    </ul>
+
+                </div>
+                </nav>
+            </div>
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+        </div>
+    </form>
+</body>
+</html>
